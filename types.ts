@@ -1,8 +1,9 @@
-
 export enum ExperienceCategory {
   Finance = 'Finance',
   Research = 'Research',
   CleanEnergy = 'Clean Energy',
+  Operations = 'Operations',
+  Community = 'Community',
 }
 
 export interface Experience {

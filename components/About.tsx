@@ -1,4 +1,3 @@
-
 import React, { forwardRef } from 'react';
 
 const About = forwardRef<HTMLDivElement>((props, ref) => {
@@ -8,10 +7,10 @@ const About = forwardRef<HTMLDivElement>((props, ref) => {
       <div className="w-20 h-1 bg-[#AFAC87] mx-auto mb-12"></div>
       <div className="max-w-4xl mx-auto text-lg text-gray-300 leading-relaxed space-y-6 text-center">
         <p>
-          My interest in finance was sparked by the dynamic nature of stock trading and has since grown into a disciplined pursuit of understanding complex financial systems. I am focused on solving real-world problems through rigorous analysis, whether modeling EV charger utilization or assessing multi-billion PKR portfolios.
+          My interest in finance began during the COVID-19 pandemic, when I started independently trading stocks. What began as curiosity soon evolved into a disciplined commitment driven by research, analysis, and a desire to understand how financial systems operate. This experience inspired me to explore the broader world of capital markets, risk management, and financial strategy.
         </p>
         <p>
-          I actively explore the integration of AI and large language models to automate financial forecasting and enhance strategic insights. My goal is to combine quantitative skill with strategic thinking to make a meaningful impact in the financial sector.
+          Today, I bring that same curiosity and drive to every opportunity I pursue. Whether through internships, student leadership, or academic projects, I'm focused on solving real-world problems, delivering value through analytical thinking, and growing into a professional who makes an impact in the financial sector.
         </p>
       </div>
     </section>

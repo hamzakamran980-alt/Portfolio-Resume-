@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { MailIcon, LinkedInIcon } from './Icons';
 
@@ -19,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ scrollToSection }) => {
         University of Massachusetts Amherst, Isenberg School of Management | May 2026
       </p>
       <p className="mt-6 max-w-3xl text-lg text-gray-300 leading-relaxed">
-        Aspiring finance and economics professional with a passion for financial modeling, investment research, and data-driven decision-making. Leveraging a strong foundation in quantitative analysis and a keen interest in AI-driven financial tools to deliver impactful results.
+        Passionate about financial modeling, investment research, and using data-driven insights to inform smart decision-making. My interest in finance began with independent stock trading and has evolved into a disciplined commitment to understanding how financial systems operate.
       </p>
       <div className="mt-8 flex flex-wrap gap-4">
         <a
