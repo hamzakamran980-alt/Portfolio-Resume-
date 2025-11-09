@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
   <head>
@@ -32,6 +31,9 @@
 
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Babel for in-browser JSX & TS transpilation -->
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 
     <!-- JSON-LD Person Schema -->
     <script type="application/ld+json">
@@ -93,5 +95,8 @@
 </head>
   <body class="bg-[#1C1C1C]">
     <div id="root"></div>
+    <!-- Main application script -->
+    <!-- Type is "text/babel" so Babel transpiles it. data-presets tells it how. -->
+    <script type="text/babel" data-type="module" data-presets="react,typescript" src="./index.tsx"></script>
   </body>
 </html>
